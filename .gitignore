@@ -1,0 +1,64 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ---- Streamlit ----
+.streamlit/
+.streamlit/secrets.toml
+
+# ---- FastAPI / Logs ----
+*.log
+logs/
+*.db
+*.sqlite3
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- VS Code ----
+.history/
+*.code-workspace
+
+# ---- PyCharm ----
+.idea/
+
+# ---- OS / System ----
+.DS_Store
+Thumbs.db
+
+# ---- Coverage / Testing ----
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# ---- Build / Dist ----
+build/
+dist/
+*.lock
+*.tar.gz
+*.whl
+
+# ---- Env Files ----
+.env.*.local
+*.env
+config.bat
+node_modules
